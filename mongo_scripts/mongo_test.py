@@ -2,7 +2,7 @@
 
 '''
     For mongodb search
-    @author:lzx
+    @author:xuriliuhen
 '''
 
 import os
