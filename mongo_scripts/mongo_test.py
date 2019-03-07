@@ -16,19 +16,19 @@ if __name__ == '__main__':
     
     ####测试环境
     '''
-    client = MongoClient(host='10.4.12.12', port=27018)
-    db = client["admin"]
-    db.authenticate("fulishe", r"$uQKq5Nr2M&8")
+    client = MongoClient(host='****', port=****)
+    db = client["****"]
+    db.authenticate("user_name", r"password")
     '''
     ###生产环境
-    client = MongoClient(host='mongos-shequ04',port=6002)
-    db = client["media_ai"]
-    db.authenticate("media_user", r"G5!tbw%gXe4t")
+    client = MongoClient(host='****',port=****)
+    db = client["****"]
+    db.authenticate("user_name", r"password")
     
 
     #创建数据表(表相当于集合)
     
-    table = db['video_ai_result']
+    table = db['****']
     #table = db['video_ai_error']
 
     ## 查
